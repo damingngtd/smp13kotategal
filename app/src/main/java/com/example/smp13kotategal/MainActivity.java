@@ -23,4 +23,24 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, EkskulActivity.class);
         startActivity(intent);
     }
+
+    public void perpus(View view) {
+        Intent intent = new Intent(MainActivity.this, PerpusActivity.class);
+        startActivity(intent);
+    }
+
+    public void guru(View view) {
+        Intent intent = new Intent(MainActivity.this, GuruActivity.class);
+        startActivity(intent);
+    }
+
+    public void fasilitas(View view) {
+        Intent intent = new Intent(MainActivity.this, FasilitasActivity.class);
+        startActivity(intent);
+    }
+
+    public void galeri(View view) {
+        Intent intent = new Intent(MainActivity.this, GaleriActivity.class);
+        startActivity(intent);
+    }
 }

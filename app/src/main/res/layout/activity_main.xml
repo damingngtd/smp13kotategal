@@ -106,7 +106,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:gravity="center"
-                                android:text="GURU DAN STAF"
+                                android:text="GURU"
                                 android:textColor="#000"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
@@ -246,7 +246,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:gravity="center"
-                                android:text="E-PERPUS"
+                                android:text="PERPUS"
                                 android:textColor="#000"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
