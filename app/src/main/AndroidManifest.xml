@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Smp13KotaTegal">
         <activity
+            android:name=".AlbumBadmintonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlbumBolaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlbumPmrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlbumPramukaActivity"
+            android:exported="false" />
+        <activity
             android:name=".AlbumOrganisasiActivity"
             android:exported="false" />
         <activity

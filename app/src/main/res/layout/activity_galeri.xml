@@ -52,7 +52,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:background="#FF8C"
+                        android:background="#88FFCF"
                         android:orientation="horizontal">
 
 
@@ -63,7 +63,7 @@
                             android:layout_gravity="center"
                             android:layout_marginRight="10dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/tujuh">
+                            android:src="@drawable/ball">
 
                         </ImageView>
 
@@ -103,7 +103,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:background="@color/purple_200"
+                        android:background="#EF1313"
                         android:orientation="horizontal">
 
 
@@ -114,7 +114,7 @@
                             android:layout_gravity="center"
                             android:layout_marginRight="10dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/delapan">
+                            android:src="@drawable/logoosissrmbg">
 
                         </ImageView>
 
@@ -125,7 +125,7 @@
                             android:layout_marginLeft="35dp"
                             android:textStyle="bold"
                             android:textSize="20dp"
-                            android:text="ALBUM DRUMB BAND ">
+                            android:text="ALBUM ORGANISASI">
 
                         </TextView>
 
@@ -154,7 +154,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:background="#FFEB3B"
+                        android:background="#317E1C"
                         android:orientation="horizontal">
 
 
@@ -165,7 +165,7 @@
                             android:layout_gravity="center"
                             android:layout_marginRight="10dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/sembilan">
+                            android:src="@drawable/gotongry">
 
                         </ImageView>
 

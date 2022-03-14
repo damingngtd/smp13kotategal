@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bag2"
     tools:context=".FasilitasActivity">
 
     <ScrollView
@@ -45,7 +44,7 @@
                         android:layout_marginLeft="12dp"
                         android:layout_marginRight="12dp"
                         android:layout_marginTop="12dp"
-                        android:src="@drawable/logo"/>
+                        android:src="@drawable/logosmp13"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -84,7 +83,7 @@
                                         android:layout_height="200dp"
                                         android:layout_marginLeft="12dp"
                                         android:layout_marginTop="60dp"
-                                        android:src="@drawable/logo"/>
+                                        android:src="@drawable/shlt"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -102,7 +101,7 @@
                                         android:layout_height="200dp"
                                         android:layout_marginTop="60dp"
                                         android:layout_marginRight="12dp"
-                                        android:src="@drawable/logo"/>
+                                        android:src="@drawable/rebana"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -143,7 +142,7 @@
                         android:layout_marginLeft="12dp"
                         android:layout_marginRight="12dp"
                         android:layout_marginTop="12dp"
-                        android:src="@drawable/logo"/>
+                        android:src="@drawable/logosmp13"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -182,7 +181,7 @@
                                         android:layout_height="200dp"
                                         android:layout_marginLeft="12dp"
                                         android:layout_marginTop="60dp"
-                                        android:src="@drawable/logo"/>
+                                        android:src="@drawable/shlt"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -200,7 +199,7 @@
                                         android:layout_height="200dp"
                                         android:layout_marginTop="60dp"
                                         android:layout_marginRight="12dp"
-                                        android:src="@drawable/logo"/>
+                                        android:src="@drawable/rebana"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
