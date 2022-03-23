@@ -55,7 +55,7 @@
                                     android:layout_marginRight="12dp"
                                     android:layout_marginTop="12dp"
                                     android:layout_marginBottom="12dp"
-                                    android:src="@drawable/logo"/>
+                                    android:src="@drawable/logosmp13"/>
 
                             </LinearLayout>
                             <RelativeLayout
@@ -75,7 +75,7 @@
                                     android:layout_marginRight="12dp"
                                     android:layout_marginTop="12dp"
                                     android:layout_marginBottom="12dp"
-                                    android:src="@drawable/logo"/>
+                                    android:src="@drawable/logosmp13"/>
 
                             </LinearLayout>
                             <RelativeLayout

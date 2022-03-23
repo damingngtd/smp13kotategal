@@ -21,11 +21,11 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/mmboss"
-                android:scaleType="fitXY"
+                android:layout_height="198dp"
                 android:layout_marginBottom="15dp"
-                app:layout_collapseMode="parallax"/>
+                android:scaleType="fitXY"
+                android:src="@drawable/headerprofil"
+                app:layout_collapseMode="parallax" />
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolar"
@@ -61,24 +61,27 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_row="0"
                     android:layout_rowWeight="1"
+                    android:layout_column="3"
                     android:layout_columnWeight="1"
                     android:layout_marginLeft="12dp"
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="8dp">
+                    app:cardElevation="8dp"
+                    tools:ignore="GridLayout">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="20dp"
+                        android:text="IDENTITAS SEKOLAH"
                         android:textColor="#000"
                         android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:text="IDENTITAS SEKOLAH"/>
+                        android:textStyle="bold" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -91,7 +94,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="NPSN : 20325356"
+                            android:text="NPSN : 20329825"
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -101,7 +104,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="Status : Swasta"
+                            android:text="Status : Negeri"
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -111,7 +114,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="Status Kepemilikan : Yayasan"
+                            android:text="Status Kepemilikan : Pemerintah Daerah"
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -121,7 +124,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="SK Pendirian Sekolah : E.2/02.041/VII.PP/84/85"
+                            android:text="Tahun Pendirian : 1986"
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -131,7 +134,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="Tanggal SK Pendirian : 1980-06-05"
+                            android:text="Alamat : Jl.Rambutan No 27"
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -141,7 +144,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="SK Izin Operasional : 030/10.3/I82"
+                            android:text="Kelurahan : Kraton"
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -151,7 +154,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="Tanggal SK Izin Operasional : 1982-01-07"
+                            android:text="Kecamatan : Tegal Barat"
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -161,7 +164,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="Alamat : Jl. KH. Jueni Karanganyar"
+                            android:text="Kota : Tegal"
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -171,7 +174,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="Desa / Kelurahan : Karanganyar Kec. Dukuhturi Kab. Tegal"
+                            android:text="Kode Pos : 52112"
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -181,7 +184,19 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="Kode Pos : 52192"
+                            android:autoLink="web"
+                            android:text="Web : smpn13tegal.sch.id"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:autoLink="email"
+                            android:text="email : smpn13tegal@gmail.com"
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -233,30 +248,12 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="1. Warga sekolah mengutamakan keunggulan dalam prestasi akademik dan non akademik"
+                            android:text="1.Terwujudnya peserta didik yang memiliki sikap terpuji,prestasi,kecakapan hidup yang memadai dan berwawasan lingkungan dengan dilandasi iman dan taqwa."
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
-                            android:text="2. Warga sekolah senantiasa meningkatkan keterampilan dalam penguasaan Ilmu Pengetahuan dan Teknologi"
-                            android:textColor="#000"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
-                            android:text="3. Warga sekolah senantiasa meningkatkan keimanan ketakwaan terhadap Allah SWT."
-                            android:textColor="#000"
-                            android:textSize="12sp"
-                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -273,7 +270,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="1. Mengembangkan nilai-nilai keagamaam dan perilaku akhlak mulia untuk mendasari sikap kedisiplinan"
+                            android:text="1.Sekolah mengkondisikan peserta didik memiliki prilaku terpuji."
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -283,7 +280,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="2. Mengembangkan Kurikulum 2013 dan Silabus Kurikulum 2013 yang berkarakter bangsa serta berorientasi pada pencapaian Prestasi Maksimal  pada Siswa dan Sekolah"
+                            android:text="2.Sekolah mengembangkan potensi peserta didik agar dapat berprestasi dalam bidang akademik maupun non akademik."
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -293,7 +290,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="3. Melaksanakan 7 K (Kebersihan, Keindahan, Kerindangan, Ketertiban, Keamanan, Kekeluargaan dan Kondusif) yang berwawasan lingkungan"
+                            android:text="3.Sekolah memberi bekal keterampilan peserta didik dalam bidang seni,olahraga,dan tata boga."
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -303,7 +300,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="4. Melakukan penggalangan partisipasi masyarakat dan komite sekolah untuk meningkatkan kualitas sekolah"
+                            android:text="4.Sekolah mengkondisikan agar peserta didik peduli terhadap lingkungan."
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
