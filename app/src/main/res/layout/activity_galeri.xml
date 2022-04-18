@@ -14,16 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="220dp"
-                    android:src="@drawable/mmboss" />
-
-            </RelativeLayout>
             <GridLayout
                 android:id="@+id/mainGrid"
                 android:layout_width="match_parent"
@@ -52,7 +43,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:background="#88FFCF"
+                        android:background="#4CAF50"
                         android:orientation="horizontal">
 
 
@@ -74,7 +65,8 @@
                             android:layout_marginLeft="50dp"
                             android:textStyle="bold"
                             android:textSize="20dp"
-                            android:text="ALBUM FUTSAL">
+                            android:text="ALBUM OLAHRAGA"
+                            android:textColor="@color/white">
 
                         </TextView>
 
@@ -122,10 +114,11 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginLeft="35dp"
+                            android:layout_marginLeft="50dp"
                             android:textStyle="bold"
                             android:textSize="20dp"
-                            android:text="ALBUM ORGANISASI">
+                            android:text="ALBUM UPACARA"
+                            android:textColor="@color/white">
 
                         </TextView>
 
@@ -154,7 +147,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:background="#317E1C"
+                        android:background="#FFC107"
                         android:orientation="horizontal">
 
 
@@ -176,7 +169,8 @@
                             android:layout_marginLeft="50dp"
                             android:textStyle="bold"
                             android:textSize="20dp"
-                            android:text="ALBUM KEGIATAN">
+                            android:text="ALBUM SOSIAL"
+                            android:textColor="@color/white">
 
                         </TextView>
                     </LinearLayout>

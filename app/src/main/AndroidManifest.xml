@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.smp13kotategal">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,25 +14,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Smp13KotaTegal">
         <activity
-            android:name=".AlbumBadmintonActivity"
+            android:name=".AlbumUpacaraActivity"
             android:exported="false" />
         <activity
-            android:name=".AlbumBolaActivity"
+            android:name=".AlbumOlahragaActivity"
             android:exported="false" />
         <activity
-            android:name=".AlbumPmrActivity"
+            android:name=".AlbumSosialActivity"
             android:exported="false" />
         <activity
-            android:name=".AlbumPramukaActivity"
+            android:name=".Buku92Activity"
             android:exported="false" />
         <activity
-            android:name=".AlbumOrganisasiActivity"
+            android:name=".Buku82Activity"
             android:exported="false" />
         <activity
-            android:name=".AlbumKegiatanActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AlbumfutsalActivity"
+            android:name=".Buku72Activity"
             android:exported="false" />
         <activity
             android:name=".GaleriActivity"

@@ -3,23 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/smp13kotategal/app/src/main/res/drawable/bg_card_3.xml" value="0.18425925925925926" />
+        <entry key="..\:/smp13kotategal/app/src/main/res/drawable/bg_card_4.xml" value="0.17962962962962964" />
         <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_album_badminton.xml" value="0.19947916666666668" />
         <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_album_bola.xml" value="0.19947916666666668" />
         <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_album_kegiatan.xml" value="0.19947916666666668" />
+        <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_album_olahraga.xml" value="0.18541666666666667" />
         <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_album_organisasi.xml" value="0.19947916666666668" />
         <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_album_pmr.xml" value="0.19947916666666668" />
         <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_album_pramuka.xml" value="0.19947916666666668" />
+        <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_album_sosial.xml" value="0.19947916666666668" />
+        <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_album_upacara.xml" value="0.19947916666666668" />
         <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_albumfutsal.xml" value="0.19947916666666668" />
-        <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_buku7.xml" value="0.1" />
+        <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_buku7.xml" value="0.15" />
+        <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_buku72.xml" value="0.19947916666666668" />
         <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_buku8.xml" value="0.19947916666666668" />
-        <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_buku9.xml" value="0.19947916666666668" />
+        <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_buku82.xml" value="0.19947916666666668" />
+        <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_buku9.xml" value="0.18" />
+        <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_buku92.xml" value="0.19947916666666668" />
         <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_ekskul.xml" value="0.22" />
-        <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_fasilitas.xml" value="0.19947916666666668" />
+        <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_fasilitas.xml" value="0.1" />
         <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_galeri.xml" value="0.19947916666666668" />
         <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_guru.xml" value="0.19947916666666668" />
-        <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_main.xml" value="0.19947916666666668" />
+        <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_main.xml" value="0.15" />
         <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_perpus.xml" value="0.19947916666666668" />
-        <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_profil.xml" value="0.22" />
+        <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_profil.xml" value="0.1" />
         <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_splash_screen.xml" value="0.19947916666666668" />
         <entry key="..\:/smp13kotategal/app/src/main/res/layout/activity_splashscreen.xml" value="0.19947916666666668" />
         <entry key="..\:/smp13kotategal/app/src/main/res/layout/slider_item.xml" value="0.19947916666666668" />

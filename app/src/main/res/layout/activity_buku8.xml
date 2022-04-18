@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Buku7Activity">
+    tools:context=".Buku8Activity">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -40,7 +40,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="30dp"
                         android:layout_marginBottom="40dp"
-                        android:text="KATALOG BUKU KELAS VII"
+                        android:text="KATALOG BUKU KELAS 8"
                         android:textColor="#000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -86,13 +86,14 @@
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:onClick="mat8s1">
 
                                     <ImageView
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/mtk7"
+                                        android:src="@drawable/mtk8"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
@@ -104,13 +105,6 @@
                                         android:textSize="20dp"
                                         android:textStyle="bold" />
 
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:text="SEMESTER 1"
-                                        android:textSize="10dp" />
-
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
@@ -135,30 +129,24 @@
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:onClick="ipa1kls8">
 
                                     <ImageView
-                                        android:layout_width="match_parent"
+                                        android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:layout_margin="10dp"
-                                        android:src="@drawable/mtk7" />
+                                        android:src="@drawable/ipa82"
+                                        android:layout_margin="10dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:text="MATEMATIKA"
+                                        android:text="IPA"
                                         android:layout_gravity="center"
                                         android:textSize="20dp"
                                         android:textStyle="bold"
                                         android:textColor="@color/black"/>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:text="SEMESTER 2"
-                                        android:textSize="10dp"/>
 
                                 </LinearLayout>
 
@@ -167,7 +155,6 @@
                         </LinearLayout>
 
                     </LinearLayout>
-
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -192,119 +179,14 @@
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:onClick="pra1kls8">
 
                                     <ImageView
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/ipa7"
-                                        android:layout_margin="10dp"/>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="IPA"
-                                        android:layout_gravity="center"
-                                        android:textSize="20dp"
-                                        android:textStyle="bold"
-                                        android:textColor="@color/black"/>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:text="SEMESTER 1"
-                                        android:textSize="10dp"/>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            android:layout_weight="1">
-
-                            <androidx.cardview.widget.CardView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:autoLink="web"
-                                    android:clickable="true"
-                                    android:cursorVisible="true"
-                                    android:linksClickable="true"
-                                    android:gravity="center"
-                                    android:orientation="vertical">
-
-                                    <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
-                                        android:layout_gravity="center"
-                                        android:src="@drawable/ipa7"
-                                        android:layout_margin="10dp"/>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="IPA"
-                                        android:layout_gravity="center"
-                                        android:textSize="20dp"
-                                        android:textStyle="bold"
-                                        android:textColor="@color/black"/>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:text="SEMESTER 2"
-                                        android:textSize="10dp"/>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal"
-                        android:weightSum="2">
-
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            android:layout_weight="1">
-
-                            <androidx.cardview.widget.CardView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:autoLink="web"
-                                    android:clickable="true"
-                                    android:cursorVisible="true"
-                                    android:linksClickable="true"
-                                    android:gravity="center"
-                                    android:orientation="vertical">
-
-                                    <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
-                                        android:layout_gravity="center"
-                                        android:src="@drawable/prakarya7"
+                                        android:src="@drawable/prkay8"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
@@ -316,13 +198,6 @@
                                         android:textStyle="bold"
                                         android:textColor="@color/black"/>
 
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:text="SEMESTER 1"
-                                        android:textSize="10dp"/>
-
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
@@ -345,37 +220,39 @@
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
-                                    android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:linksClickable="true"
+                                    android:orientation="vertical"
+                                    android:onClick="indkls8">
 
                                     <ImageView
-                                        android:layout_width="wrap_content"
+                                        android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
-                                        android:src="@drawable/prakarya7" />
+                                        android:src="@drawable/ind8" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:text="PRAKARYA"
                                         android:layout_gravity="center"
+                                        android:text="BAHASA"
+                                        android:textColor="@color/black"
                                         android:textSize="20dp"
-                                        android:textStyle="bold"
-                                        android:textColor="@color/black"/>
+                                        android:textStyle="bold" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
-                                        android:text="SEMESTER 2"
-                                        android:textSize="10dp"/>
+                                        android:text="INDONESIA"
+                                        android:textColor="#000"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold" />
 
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
-
                         </LinearLayout>
 
                     </LinearLayout>
@@ -404,14 +281,15 @@
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:onClick="ingkls8">
 
                                     <ImageView
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
-                                        android:src="@drawable/bhsind7" />
+                                        android:src="@drawable/ingrs8" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -426,7 +304,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
-                                        android:text="INDONESIA"
+                                        android:text="INGGRIS"
                                         android:textColor="#000"
                                         android:textSize="20dp"
                                         android:textStyle="bold" />
@@ -453,34 +331,26 @@
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
-                                    android:gravity="center"
                                     android:linksClickable="true"
-                                    android:orientation="vertical">
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:onClick="ppkn8">
 
                                     <ImageView
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:layout_margin="10dp"
-                                        android:src="@drawable/bing7" />
+                                        android:src="@drawable/pkn8"
+                                        android:layout_marginBottom="20dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
+                                        android:text="PPKN"
                                         android:layout_gravity="center"
-                                        android:text="BAHASA"
-                                        android:textColor="@color/black"
                                         android:textSize="20dp"
-                                        android:textStyle="bold" />
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:text="INGGRIS"
-                                        android:textColor="#000"
-                                        android:textSize="20dp"
-                                        android:textStyle="bold" />
+                                        android:textStyle="bold"
+                                        android:textColor="@color/black"/>
 
                                 </LinearLayout>
 
@@ -514,19 +384,20 @@
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:onClick="ipskls8">
 
                                     <ImageView
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/pkn7"
+                                        android:src="@drawable/ips8"
                                         android:layout_marginBottom="20dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:text="PPKN"
+                                        android:text="IPS"
                                         android:layout_gravity="center"
                                         android:textSize="20dp"
                                         android:textStyle="bold"
@@ -556,13 +427,14 @@
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:onClick="paikls8">
 
                                     <ImageView
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/pai7"
+                                        android:src="@drawable/pai8"
                                         android:layout_marginBottom="20dp"/>
 
                                     <TextView
@@ -606,13 +478,14 @@
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:onClick="penjas8">
 
                                     <ImageView
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/penjas7"
+                                        android:src="@drawable/penjas8"
                                         android:layout_marginBottom="20dp"/>
 
                                     <TextView
@@ -648,13 +521,14 @@
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:onClick="sbykls8">
 
                                     <ImageView
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/sby7"
+                                        android:src="@drawable/bdy8"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
@@ -682,58 +556,6 @@
                         </LinearLayout>
 
                     </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal"
-                        android:gravity="center"
-                        android:weightSum="2">
-
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            android:layout_weight="1">
-
-                            <androidx.cardview.widget.CardView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:autoLink="web"
-                                    android:clickable="true"
-                                    android:cursorVisible="true"
-                                    android:linksClickable="true"
-                                    android:gravity="center"
-                                    android:orientation="vertical">
-
-                                    <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
-                                        android:layout_gravity="center"
-                                        android:src="@drawable/ips7"
-                                        android:layout_marginBottom="20dp"/>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="IPS"
-                                        android:layout_gravity="center"
-                                        android:textSize="20dp"
-                                        android:textStyle="bold"
-                                        android:textColor="@color/black"/>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
 
                 </LinearLayout>
             </GridLayout>

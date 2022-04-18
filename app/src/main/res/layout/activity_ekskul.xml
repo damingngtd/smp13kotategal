@@ -78,9 +78,8 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_gravity="center"
-                                    android:background="#FF9800"
-                                    android:orientation="horizontal"
-                                    android:onClick="orgpram">
+                                    android:background="#C57603"
+                                    android:orientation="horizontal">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -89,7 +88,7 @@
                                         android:layout_margin="10dp"
                                         android:layout_marginLeft="10dp"
                                         android:layout_marginTop="10dp"
-                                        android:src="@drawable/logopramuka">
+                                        android:src="@drawable/pramuka">
 
                                     </ImageView>
 
@@ -98,15 +97,13 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
-                                        android:text="ORGANISASI PRAMUKA"
+                                        android:text="PRAMUKA"
                                         android:textColor="@color/white"
                                         android:textStyle="bold">
 
                                     </TextView>
                                 </LinearLayout>
                             </androidx.cardview.widget.CardView>
-                            <!--                            PENUTUP MENU2-->
-                            <!--                            PEMBUKA MENU3-->
                             <androidx.cardview.widget.CardView
                                 android:layout_width="150dp"
                                 android:layout_height="150dp"
@@ -121,11 +118,10 @@
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="139dp"
+                                    android:layout_height="match_parent"
                                     android:layout_gravity="center"
-                                    android:background="#DD1A0C"
-                                    android:orientation="horizontal"
-                                    android:onClick="orgpmr">
+                                    android:background="#EF4D31"
+                                    android:orientation="horizontal">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -134,8 +130,7 @@
                                         android:layout_margin="10dp"
                                         android:layout_marginLeft="10dp"
                                         android:layout_marginTop="10dp"
-                                        android:background="@color/white"
-                                        android:src="@drawable/logopmr">
+                                        android:src="@drawable/pmr">
 
                                     </ImageView>
 
@@ -144,7 +139,7 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
-                                        android:text="ORGANISASI PMR"
+                                        android:text="PMR"
                                         android:textColor="@color/white"
                                         android:textStyle="bold">
 
@@ -169,9 +164,8 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_gravity="center"
-                                    android:background="@color/black"
-                                    android:orientation="horizontal"
-                                    android:onClick="orgfut">
+                                    android:background="#8BC34A"
+                                    android:orientation="horizontal">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -180,7 +174,7 @@
                                         android:layout_margin="10dp"
                                         android:layout_marginLeft="10dp"
                                         android:layout_marginTop="10dp"
-                                        android:src="@drawable/logofutsal">
+                                        android:src="@drawable/footsal">
 
                                     </ImageView>
 
@@ -189,7 +183,7 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
-                                        android:text="CLUB FUTSAL"
+                                        android:text="FUTSAL"
                                         android:textColor="@color/white"
                                         android:textStyle="bold">
 
@@ -214,9 +208,8 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_gravity="center"
-                                    android:background="@color/purple_500"
-                                    android:orientation="horizontal"
-                                    android:onClick="orgton">
+                                    android:background="#3198C6"
+                                    android:orientation="horizontal">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -225,8 +218,7 @@
                                         android:layout_margin="10dp"
                                         android:layout_marginLeft="10dp"
                                         android:layout_marginTop="10dp"
-                                        android:background="@color/white"
-                                        android:src="@drawable/badminton">
+                                        android:src="@drawable/tari">
 
                                     </ImageView>
 
@@ -235,14 +227,229 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
-                                        android:text="CLUB BULUTANGKIS"
+                                        android:text="TARI"
                                         android:textColor="@color/white"
                                         android:textStyle="bold">
 
                                     </TextView>
                                 </LinearLayout>
+
                             </androidx.cardview.widget.CardView>
-                            <!--                            PENUTUP MENU5-->
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginRight="12dp"
+                                android:layout_marginBottom="12dp"
+                                app:cardCornerRadius="8dp"
+                                app:cardElevation="8dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:background="#3F51B5"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="10dp"
+                                        android:src="@drawable/kom">
+
+                                    </ImageView>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="KOMPUTER"
+                                        android:textColor="@color/white"
+                                        android:textStyle="bold">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginRight="12dp"
+                                android:layout_marginBottom="12dp"
+                                app:cardCornerRadius="8dp"
+                                app:cardElevation="8dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:background="#FF9800"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="10dp"
+                                        android:src="@drawable/musik">
+
+                                    </ImageView>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="MUSIK"
+                                        android:textColor="@color/white"
+                                        android:textStyle="bold">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginRight="12dp"
+                                android:layout_marginBottom="12dp"
+                                app:cardCornerRadius="8dp"
+                                app:cardElevation="8dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:background="#252423"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="10dp"
+                                        android:src="@drawable/karate">
+
+                                    </ImageView>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="KARATE"
+                                        android:textColor="@color/white"
+                                        android:textStyle="bold">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginRight="12dp"
+                                android:layout_marginBottom="12dp"
+                                app:cardCornerRadius="8dp"
+                                app:cardElevation="8dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:background="#E8DA61"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="10dp"
+                                        android:src="@drawable/hadroh">
+
+                                    </ImageView>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="HADROH"
+                                        android:textColor="@color/white"
+                                        android:textStyle="bold">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginRight="12dp"
+                                android:layout_marginBottom="12dp"
+                                app:cardCornerRadius="8dp"
+                                app:cardElevation="8dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:background="#9C27B0"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="10dp"
+                                        android:src="@drawable/english">
+
+                                    </ImageView>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="ENGLISH CLUB"
+                                        android:textColor="@color/white"
+                                        android:textStyle="bold">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
 
                         </GridLayout>
 

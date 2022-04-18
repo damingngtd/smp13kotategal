@@ -15,17 +15,17 @@ public class GaleriActivity extends AppCompatActivity {
     }
 
     public void futsal(View view) {
-        Intent intent = new Intent(GaleriActivity.this, AlbumfutsalActivity.class);
+        Intent intent = new Intent(GaleriActivity.this, AlbumOlahragaActivity.class);
         startActivity(intent);
     }
 
     public void albumdorganisasi(View view) {
-        Intent intent = new Intent(GaleriActivity.this, AlbumOrganisasiActivity.class);
+        Intent intent = new Intent(GaleriActivity.this, AlbumUpacaraActivity.class);
         startActivity(intent);
     }
 
     public void albumkegiatan(View view) {
-        Intent intent = new Intent(GaleriActivity.this, AlbumKegiatanActivity.class);
+        Intent intent = new Intent(GaleriActivity.this, AlbumSosialActivity.class);
         startActivity(intent);
     }
 }

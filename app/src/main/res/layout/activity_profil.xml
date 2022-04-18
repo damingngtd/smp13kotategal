@@ -22,7 +22,6 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="15dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/headerprofil"
                 app:layout_collapseMode="parallax" />
@@ -208,7 +207,7 @@
                         android:layout_marginTop="20dp"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:text="TUJUAN SEKOLAH"/>
+                        android:text="KODE ETIK"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -221,7 +220,133 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="Tujuan pendidikan tingkat satuan pendidikan dasar mengacu pada tujuan umum pendidikan dasar yaitu meletakkan dasar kecerdasan, pengetahuan, kepribadian, akhlak mulia, serta keterampilan untuk hidup mandiri dan mengikuti pendidikan lebih lanjut. Sedangkan secara khusus, sesuai dengan visi dan misi  sekolah."
+                            android:text="1.Setiap warga sekolah menjamin kebebasan beragama dan menumbuhkan penghayatan terhadap ajaran agama yang dianut dan memiliki budi pekerti yang luhur."
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:text="2. Setiap warga sekolah memiliki kewajiban melaksanakan Pancasila dan Undang Undang Dasar Tahun 1945"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:text="3. Setiap warga sekolah memiliki kewajiban untuk melaksanakan visi dan misi yang ada di SMP Negeri 13 Tegal."
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:text="4.Setiap warga sekolah memiliki kewajiban untuk mengembangkan ilmu pengetahuan dan tehnologi yang dimiliki."
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:text="5.Setiap warga sekolah memberikan kesempatan dan memberikan fasilitas dalam menciptakan pembelajaran yang efektif dan efisien untuk menggali potensi yang ada di SMP Negeri 13 Tegal."
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:text="6.Sekolah memberikan pelayanan kepada peserta didik dalam pembelajaran atau dalam menggali potensi yang dimiliki oleh peserta didik."
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:text="7.Setiap warga sekolah memiliki kewajiban untuk membangun komunikasi yang baik untuk mewujudkan visi dan misi SMP Negeri 13 Tegal."
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:text="8.Setiap warga sekolah memiliki kewajiban untuk mengembangkan sikap berbudaya santun."
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:text="9.Setiap warga sekolah memiliki kewajiban untuk mengembangkan potensi yang dimiliki dalam penelitian ilmiah dan berkomunikasi ilmiah."
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:text="10.Setiap warga sekolah memiliki kewajiban dan memberikan fasilitas dalam melestarikan seni dan budaya bangsa."
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:text="11.Setiap warga sekolah memiliki kewajiban dan bertanggungjawab dalam mengembangkan prestasi bidang akedemik dan non akademik."
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:text="12.Setiap warga sekolah bersikap visioner dan kempetitif."
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:text="13.Setiap warga sekolah memiliki kepedulian dalam melestarikan lingkungan dan menjaga keindahan, kebersihan dan ketertiban sekolah."
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:text="14.Setiap warga sekolah memiliki kewajiban menjaga kerahasiaan baik hasil keputusan rapat, atau tugas yang dibebankan kepada setiap warga sekolah."
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:text="15.Setiap warga sekolah memiliki kewajiban untuk menjaga nama baik sekolah."
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -299,7 +424,6 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="2. Sekolah mengembangkan potensi peserta didik agar dapat berprestasi baik dibidang akademik maupun non akademik"
-                            android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
